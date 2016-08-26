@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.richa.assignment">
+
+
+    <application
+        android:allowBackup="false"
+        android:icon="@mipmap/my_icon"
+        android:label="PrimeNum"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".MainActivity"
+            android:configChanges="orientation|density|fontScale|keyboard|keyboardHidden|layoutDirection|locale|mcc|mnc|navigation|screenLayout|screenSize|smallestScreenSize|touchscreen|uiMode">
+            android:label="Prime_Number"/>
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter><!-- ATTENTION: This intent was auto-generated. Follow instructions at
+  https://g.co/AppIndexing/AndroidStudio to publish your URLs. -->
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+                <!-- ATTENTION: This data URL was auto-generated. We recommend that you use the HTTP scheme.
+                  TODO: Change the host or pathPrefix as necessary. -->
+                <data
+                    android:host="assignment.richa.example.com"
+                    android:pathPrefix="/main"
+                    android:scheme="http" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".CheatActivity"
+            android:configChanges="orientation|density|fontScale|keyboard|keyboardHidden|layoutDirection|locale|mcc|mnc|navigation|screenLayout|screenSize|smallestScreenSize|touchscreen|uiMode"
+            android:label="Cheat">
+            >
+        </activity>
+        <activity
+            android:name=".HintActivity"
+            android:configChanges="orientation|density|fontScale|keyboard|keyboardHidden|layoutDirection|locale|mcc|mnc|navigation|screenLayout|screenSize|smallestScreenSize|touchscreen|uiMode"
+            android:label="Hint">
+            >
+        </activity>
+        <activity
+            android:name=".ScoreActivity"
+            android:label="Scores"
+            android:configChanges="orientation|density|fontScale|keyboard|keyboardHidden|layoutDirection|locale|mcc|mnc|navigation|screenLayout|screenSize|smallestScreenSize|touchscreen|uiMode"
+            >
+
+        </activity>
+    </application>
+
+</manifest>
+
+

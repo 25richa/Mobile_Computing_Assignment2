@@ -1,0 +1,18 @@
+<resources>
+    <string name="txt_number">Is 34 a prime number?</string>
+    <string name="bt_true">True</string>
+    <string name="bt_false">False</string>
+    <string name="bt_next">Next</string>
+    <string name="bt_hint">Hint</string>
+    <string name="bt_cheat">Cheat</string>
+    <string name="bt_score">Score</string>
+    <string name="My_Answer">false,number is not a prime number</string>
+    <string name="Correct_Answer">Correct Answer:</string>
+    <string name="answer_correct">0</string>
+    <string name="Cheat_Used">Cheat Used:</string>
+    <string name="ans_incorrect">0</string>
+    <string name="Incorrect_Answer">Incorrect Answer:</string>
+    <string name="ans_cheat">0</string>
+    <string name="Hint_Used">Hint Used:</string>
+    <string name="ans_hint">0</string>
+</resources>
